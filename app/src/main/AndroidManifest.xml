@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <activity
+                android:name=".level_list_animated_vector.Activity"
+                android:label="@string/level_list_animated_vector"/>
     </application>
 
 </manifest>

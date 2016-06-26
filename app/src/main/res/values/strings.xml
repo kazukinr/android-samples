@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">android-samples</string>
+
+    <string name="level_list_animated_vector">LevelListAnimatedVector</string>
+    <string name="button_switch">SWITCH</string>
+    <string name="button_left">TO LEFT</string>
+    <string name="button_right">TO RIGHT</string>
+    <string name="path_focus_2_left">M0,0H200A25,25 0,1 1,200 50H0A25,25 0,1 1,0 0z</string>
+    <string name="path_focus_2_right">M250,0H295A25,25 0,1 1,295 50H250A25,25 0,1 1,250 0z</string>
+
+    <string name="path_focus_3_left">M0,0H150A25,25 0,1 1,150 50H0A25,25 0,1 1,0 0z</string>
+    <string name="path_focus_3_center">M200,0H220A25,25 0,1 1,220 50H200A25,25 0,1 1,200 0z</string>
+    <string name="path_focus_3_right">M275,0H295A25,25 0,1 1,295 50H275A25,25 0,1 1,275 0z</string>
 </resources>
