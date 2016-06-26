@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal">
+
+    <TextView
+            android:layout_marginTop="16dp"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 columns animation"/>
+
+    <ImageView
+            android:id="@+id/animatedTarget"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/focus_2_animate_list"/>
+
+    <Button
+            android:layout_marginTop="16dp"
+            android:id="@+id/button"
+            android:text="@string/button_switch"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:layout_marginTop="32dp"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 columns animation"/>
+
+    <ImageView
+            android:id="@+id/animatedTarget3Column"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/focus_3_animate_list"/>
+
+    <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/toLeft"
+                android:text="@string/button_left"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:id="@+id/toRight"
+                android:text="@string/button_right"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
